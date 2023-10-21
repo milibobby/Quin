@@ -1,0 +1,47 @@
+body {
+    background-image: url(../assets/sea-image.jpg);
+    background-size: cover;
+}
+
+
+
+.counter {
+    text-align: center;
+
+}
+
+.counter-heading {
+    font-size: 60px;
+}
+
+.counter-number {
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: 80px;
+    font-weight: 400;
+
+
+}
+
+
+.increment-button,
+.reset-button,
+.decrement-button {
+    padding: 20px 30px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #D30A77;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.2s;
+    font-size: large;
+
+}
+
+.increment-button:hover,
+.reset-button:hover,
+.decrement-button:hover {
+    background-color: #f32897;
+    transform: scale(1.1);
+}
